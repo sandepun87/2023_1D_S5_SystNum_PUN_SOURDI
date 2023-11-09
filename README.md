@@ -17,4 +17,7 @@
 7.  Les pins A0, A1 et A2 permettent de déterminer l'adresse du périphérique de l'extérieur. 'opcode?'
 8.  Les INTA et INTB sont des sorties d'interrompts pour les PORTA et PORTB respectivement.
 9.  La valeur de sortie d'une pin devrait être 0v (relier à la terre).
-10.  
+10. Les résistances R501 à R516 servent à protèger les leds et elles onts des différentes valeurs car les leds n'ont pas les mêmes couleur (donc differentes valuers de courants).
+
+### Le GPIO Expander (MCP23S17) possède une mémoire (RAM) de 16 octets (voir table 3-1). Nous avons besoin de configurer uniqument les registres IODIRA, IODIRB, GPIOA et GPIOB.
+11.
