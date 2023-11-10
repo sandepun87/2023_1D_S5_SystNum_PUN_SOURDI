@@ -14,7 +14,7 @@
     b. PA7 -> MOSI -> 13
     c. PA6 -> MISO -> 14
     d. PA4 -> SS ->   11
-7.  Les pins A0, A1 et A2 permettent de configurer l'adresse du périphérique de l'extérieur. L'opcode est un syntaxe pour uyn language bas niveau comme l'assembleur.
+7.  Les pins A0, A1 et A2 permettent de configurer l'adresse du périphérique de l'extérieur. Dans ce cas, l'opcode est la partie fix de la partie SPI.
 8.  Les INTA et INTB sont des sorties d'interrompts pour les PORTA et PORTB respectivement.
 9.  La valeur de sortie d'une pin devrait être 0v (relier à la terre).
 10. Les résistances R501 à R516 servent à protèger les leds et elles onts des différentes valeurs car les leds n'ont pas les mêmes couleur (donc differentes valuers de courants).
